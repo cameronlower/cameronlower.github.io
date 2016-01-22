@@ -1,0 +1,73 @@
+html {
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;
+  align-items: center;*/
+  height: 100%;
+  text-align: center;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  line-height: 1;
+}
+
+h1 {
+  font-size: 4em;
+  letter-spacing: 3px;
+}
+h2 { font-size: 2em; }
+
+/*#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}*/
+
+.header {
+  /*position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;*/
+	text-align: center;
+  width: auto;
+	/*padding: 0px 20px 0px;*/
+  /*font-size: 2em;*/
+	/*font-size: 4rem;*/
+}
+
+.test {
+	text-align: center;
+  width: auto;
+	/*padding: 10px;*/
+}
+
+.home {
+  float: left;
+  width: 100%;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #888;
+	transition: all .2s;
+}
+
+a:hover, a:focus {
+	background: #9DD2F5;
+	color: #020202;
+}
+
+hr {
+  width: 35%;
+}
+
+.home:hover, .home:focus {
+  background: #fff;
+  color: #020202;
+}
