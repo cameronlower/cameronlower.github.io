@@ -6,30 +6,43 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
 	<link rel="shortcut icon" href="/images/favicon.ico">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	
-	<script src="//code.jquery.com/jquery-latest.min.js"></script>
+	<!-- <link rel="stylesheet" href="css/normalize.css" type="text/css"> -->
+
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script src="js/flowtype.js"></script>
 
-	
-		<title>Cameron Lower</title>
-	
+	<title>Cameron Lower</title>
+
 </head>
 
 <body>
-	
+
+	<div id="toggle">
+	  <div class="one"></div>
+	  <div class="two"></div>
+	  <div class="three"></div>
+	</div>
+
+	<div id="menu">
+		<ul>
+		  <li><a href="projects.html">Projects</a></li>
+			<li><a href="resume.pdf">Resume</a></li>
+			<li><a href="mailto:cameron@cameronlower.com">Contact</a></li>
+		</ul>
+	</div>
 
 	<section id="wrapper">
 		<header id="header">
 			<!--<img id="avatar" class="2x" src="/static/images/avatar.jpg"/>-->
 			<h1>Cameron Lower</h1>
-			
 		</header>
 
 		<p></p>
 	</section>
-	<script type="text/javascript">	
+	<script type="text/javascript">
 	$('body').flowtype({
    		minimum   : 500,
    		maximum   : 1200,
@@ -38,11 +51,16 @@
    		fontRatio : 30
 	});
 	</script>
-	
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script>
+		$("#toggle").click(function() {
+			$(this).toggleClass("on");
+			$("#menu").slideToggle();
+		});
+	</script>
+
+		<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 		<script src="/static/js/main.js"></script>
-		<script src="/static/js/retina.js"></script>
-	
+		<script src="/static/js/retina.js"></script>-->
+
 </body>
 </html>
-
