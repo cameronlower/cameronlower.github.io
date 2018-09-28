@@ -1,13 +1,15 @@
 body {
- font-family: 'Oswald', sans-serif;
+ font-family: 'Open Sans', sans-serif;
+ font-family: 'Archivo', sans-serif;
  font-size: 18px;
  text-align: center;
 }
 h1,h2,h3,h4,h5,h6,p {
- line-height: 1.45;
+ line-height: 1.00;
  color: #020202;
 }
-h1 { font-size: 4em; }
+h1 { font-size: 3.5em;
+font-family: 'Archivo', sans-serif;}
 h2 { font-size: 3em; }
 
 
@@ -70,3 +72,31 @@ li a:focus {
   color: #020202;         /* Was white */
 }
 
+/* .responsive {
+  width: 50%;
+  height: auto;
+} */
+
+.row {
+  display: inline-block;
+}
+
+.column {
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 0;
+}
+
+.column img {
+  margin-top: 5px;
+  vertical-align: middle;
+  max-height: 35%;
+  max-width: 35%;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
