@@ -1,5 +1,6 @@
 body {
- font-family: 'Nunito', sans-serif;
+ font-family: 'Open Sans', sans-serif;
+ font-family: 'Archivo', sans-serif;
  font-size: 18px;
  text-align: center;
 }
@@ -8,7 +9,7 @@ h1,h2,h3,h4,h5,h6,p {
  color: #020202;
 }
 h1 { font-size: 3.5em;
-font-family: 'Nunito', sans-serif;
+font-family: 'Archivo', sans-serif;}
 h2 { font-size: 3em; }
 
 
@@ -41,7 +42,7 @@ h2 { font-size: 3em; }
 }
 
 #menu {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   color: #020202;
   width: 150px;
@@ -99,3 +100,4 @@ li a:focus {
     max-width: 100%;
   }
 }
+
